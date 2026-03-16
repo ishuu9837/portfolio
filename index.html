@@ -616,11 +616,15 @@
 
   /* SCROLL REVEAL */
   .reveal { 
-    opacity: 0; 
-    transform: translateY(20px);
+    opacity: 1;
+    transform: translateY(0);
     transition: opacity 0.6s ease, transform 0.6s ease;
   }
-  .reveal.visible {
+  .reveal.animate {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  .reveal.animate.visible {
     opacity: 1;
     transform: translateY(0);
   }
@@ -1064,7 +1068,7 @@
       <h3>Looking For</h3>
       <div style="background:rgba(255,255,255,0.08);padding:1.5rem;border-radius:2px;">
         <p style="color:rgba(255,255,255,0.75);font-size:0.92rem;line-height:1.8;">
-          Data Science / ML / AI Research internships & full-time roles (₹6 LPA+). Open to Data Analyst, Computer Vision, and ML Engineer positions. Remote, hybrid, or onsite.
+          Data Science / ML / AI Research  full-time roles. Open to Data Analyst, Computer Vision, and ML Engineer positions. Remote, hybrid, or onsite.
         </p>
       </div>
     </div>
@@ -1076,6 +1080,28 @@
   Made with <span>♥</span> by <span>Y Eswar</span> &nbsp;·&nbsp; © 2026 · Data Scientist & ML Engineer
 </footer>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-  // Scroll reveal
-  co
+<script>
+  // Scroll reveal — animate on scroll, but content always visible as fallback
+  document.addEventListener('DOMContentLoaded', function() {
+    const reveals = document.querySelectorAll('.reveal');
+    
+    // Add animate class to trigger the hidden state
+    reveals.forEach(el => el.classList.add('animate'));
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.08 });
+
+    reveals.forEach(el => observer.observe(el));
+
+    // Fallback: after 2s, make everything visible regardless
+    setTimeout(() => {
+      reveals.forEach(el => el.classList.add('visible'));
+    }, 2000);
+  });
+</script>
