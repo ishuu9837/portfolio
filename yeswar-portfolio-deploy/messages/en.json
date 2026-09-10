@@ -1,0 +1,288 @@
+{
+  "nav": {
+    "projects": "01 PROJECTS",
+    "research": "02 RESEARCH",
+    "skills": "03 SKILLS",
+    "experience": "04 EXPERIENCE",
+    "education": "05 EDUCATION",
+    "contact": "06 CONTACT",
+    "menu": "Menu",
+    "close": "Close menu"
+  },
+  "intro": {
+    "hello": "HELLO",
+    "namaste": "NAMASTE",
+    "namasteTelugu": "నమస్తే",
+    "name": "Y ESWAR",
+    "nameTelugu": "నేను ఈశ్వర్",
+    "role": "Data Scientist / AI / Builder / Designer",
+    "skip": "Skip Intro",
+    "enter": "Enter"
+  },
+  "hero": {
+    "name": "Y ESWAR",
+    "role1": "Data Scientist",
+    "role2": "AI / ML",
+    "role3": "Research",
+    "role4": "Builder",
+    "role5": "Designer",
+    "tagline": "Building intelligent systems across data, machine learning, computer vision, multimodal AI and cloud.",
+    "badge": "M.Tech Data Science · GITAM University",
+    "cta": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "contact": "Contact"
+    }
+  },
+  "about": {
+    "title": "ABOUT",
+    "description": "Data Scientist & ML Engineer with a passion for computer vision, deep learning, and building intelligent systems. Currently pursuing M.Tech in Data Science (2025–2027) with a focus on research-grade ML projects.",
+    "working": "Working across",
+    "domains": "DATA · AI · MACHINE LEARNING · COMPUTER VISION · MULTIMODAL AI · RESEARCH · CLOUD",
+    "activeProject": "MULTIMODAL CROSS-DOMAIN",
+    "activeLabel": "ACTIVE RESEARCH",
+    "activeDescription": "Currently working on a multimodal cross-domain project exploring the intersection of multiple AI modalities.",
+    "availability": "Open to research internships, data science roles, and collaboration on ML/AI projects. Available for remote, hybrid, or onsite opportunities."
+  },
+  "projects": {
+    "title": "01 PROJECTS",
+    "subtitle": "Everything that has been built",
+    "viewProject": "View Project",
+    "viewCode": "View Code",
+    "viewPaper": "View Paper",
+    "technologies": "Technologies",
+    "activeNow": "NOW",
+    "activeResearch": "ACTIVE RESEARCH",
+    "items": {
+      "multimodal": {
+        "title": "Multimodal Cross-Domain",
+        "category": "Multimodal AI",
+        "description": "Active research project exploring cross-domain multimodal AI systems."
+      },
+      "imageColorization": {
+        "title": "Image Colorization with Deep Learning",
+        "category": "Computer Vision",
+        "description": "Convolutional Autoencoder (U-Net architecture) trained on CIFAR-10 using LAB color space. Uses MSE + VGG perceptual loss, 64×64 resolution, 8K training samples. EarlyStopping callbacks for Colab CPU compatibility."
+      },
+      "abnormalLearning": {
+        "title": "Abnormal Learning Behaviour Detection",
+        "category": "Deep Learning",
+        "description": "Deep autoencoder-based anomaly detection system for identifying unusual student learning patterns. Comparative analysis of 5 experimental ML papers with practical implementation design."
+      },
+      "smartEnergy": {
+        "title": "Smart Energy Grid Optimization",
+        "category": "Applied Research",
+        "description": "Proposed IDSGOF framework — IoT + LSTM-Transformer hybrid with Multi-Agent Reinforcement Learning for dynamic load prediction. Addresses the Ramp Rate Problem in renewable energy integration."
+      },
+      "heartDisease": {
+        "title": "Heart Disease Prediction with DNN",
+        "category": "Medical AI",
+        "description": "Deep Neural Network with Dropout Regularization and Feature Importance Analysis for clinical heart disease risk prediction. Interpretability-focused design for clinical deployment."
+      },
+      "faceDetection": {
+        "title": "Real-Time Face Detection",
+        "category": "Computer Vision",
+        "description": "Real-time facial recognition system using OpenCV in cybersecurity applications. Published as a research paper in IEEE (Dec 2024) highlighting effectiveness and adaptability for employee security systems."
+      },
+      "netflix": {
+        "title": "Netflix Content Recommendation",
+        "category": "Machine Learning",
+        "description": "Machine learning recommendation engine using cosine similarity on genre vectors with 60% genre match, 30% rating weight, and 10% popularity factor. Fully client-side, deployed on Vercel."
+      },
+      "galaxyGlide": {
+        "title": "Galaxy Glide",
+        "category": "Web",
+        "description": "Immersive interactive solar system explorer built with TypeScript, HTML, CSS. 3D-like planetary visualization with smooth animations and educational content about each planet."
+      },
+      "annDigit": {
+        "title": "ANN Digit Classification",
+        "category": "Deep Learning",
+        "description": "Neural network classifier on MNIST using TensorFlow/Keras with BatchNorm, Dropout, L2 regularization, EarlyStopping, and ReduceLROnPlateau. Classification and regression models with full pipeline."
+      }
+    }
+  },
+  "research": {
+    "title": "02 RESEARCH",
+    "subtitle": "Published work and ongoing investigation",
+    "paper1": {
+      "title": "Real-Time Face Detection Using OpenCV",
+      "venue": "IEEE · ResearchGate",
+      "date": "December 2024",
+      "description": "Research on real-time facial recognition highlighting the effectiveness and adaptability of OpenCV in cybersecurity applications.",
+      "context": "Published during B.Tech at Parul University (PIET). Research conducted in the domain of computer vision and cybersecurity.",
+      "status": "PUBLISHED"
+    },
+    "areas": {
+      "title": "Active Research Areas",
+      "cv": "Computer Vision",
+      "dl": "Deep Learning",
+      "multimodal": "Multimodal AI",
+      "anomaly": "Anomaly Detection",
+      "energy": "Energy Systems"
+    }
+  },
+  "skills": {
+    "title": "03 SKILLS",
+    "subtitle": "Capability architecture",
+    "categories": {
+      "aiml": {
+        "title": "AI / MACHINE LEARNING",
+        "items": "TensorFlow, Keras, Scikit-learn, OpenCV, NumPy, Pandas, CNNs, U-Net"
+      },
+      "programming": {
+        "title": "DATA / PROGRAMMING",
+        "items": "Python, SQL, JavaScript, TypeScript, HTML, CSS, MongoDB, Apache Hive"
+      },
+      "cloud": {
+        "title": "CLOUD",
+        "items": "AWS, AWS Bedrock, Azure, Elastic Beanstalk"
+      },
+      "visualization": {
+        "title": "VISUALIZATION",
+        "items": "Power BI, Tableau"
+      },
+      "tools": {
+        "title": "TOOLS",
+        "items": "Google Colab, Jupyter, GitHub"
+      }
+    }
+  },
+  "experience": {
+    "title": "04 EXPERIENCE",
+    "subtitle": "Professional timeline",
+    "items": {
+      "pwc": {
+        "role": "PwC Switzerland — Power BI Job Simulation",
+        "org": "Forage (Virtual)",
+        "timeline": "Feb – Mar 2025",
+        "description": "Strengthened Power BI skills for client data visualization needs. Created executive dashboards communicating KPIs clearly. Responded to client requests with well-designed analytical solutions."
+      },
+      "aws": {
+        "role": "AWS APAC — Solutions Architecture",
+        "org": "Forage (Virtual)",
+        "timeline": "Mar 2025",
+        "description": "Designed scalable hosting architecture using Elastic Beanstalk for a high-growth client. Communicated architecture and cost models in plain language."
+      },
+      "bytexl": {
+        "role": "Education Internship",
+        "org": "Bytexl",
+        "timeline": "May – Jun 2024",
+        "description": "Completed training modules in JavaScript, HTML, CSS, Python, and MS Office. Enhanced practical skills through assessments and project work."
+      }
+    }
+  },
+  "education": {
+    "title": "05 EDUCATION",
+    "subtitle": "Academic foundation",
+    "items": {
+      "mtech": {
+        "degree": "M.Tech in Data Science",
+        "institution": "GITAM University, Hyderabad",
+        "timeline": "2025 – 2027 · Current",
+        "description": "Specializing in machine learning, deep learning, big data analytics, and AI research. Active on image colorization, anomaly detection, and energy optimization projects."
+      },
+      "iit": {
+        "degree": "Data Science & AI Certification",
+        "institution": "IIT Roorkee",
+        "timeline": "2024 · Certification",
+        "description": "Advanced certification covering data science methodologies, AI fundamentals, and applied machine learning techniques."
+      },
+      "btech": {
+        "degree": "B.Tech in CSE – Artificial Intelligence",
+        "institution": "Parul University (PIET), Vadodara",
+        "timeline": "2021 – 2025",
+        "description": "Core foundation in algorithms, OOP, AI, ML, and software engineering. Published IEEE paper during final year on real-time face detection. CGPA: 7.13/10."
+      },
+      "school": {
+        "degree": "Higher Secondary Education (12th Grade)",
+        "institution": "Sri Chaitanya Junior College, Vijayawada",
+        "timeline": "2021",
+        "description": "Completed with 86.40% aggregate."
+      }
+    }
+  },
+  "certifications": {
+    "title": "CERTIFICATIONS",
+    "items": {
+      "pythonEssentials1": {
+        "name": "Python Essentials 1",
+        "issuer": "Cisco",
+        "score": "Aggregate: 100/100"
+      },
+      "pythonEssentials2": {
+        "name": "Python Essentials 2",
+        "issuer": "Cisco",
+        "score": "Aggregate: 100/100"
+      },
+      "cybersecurity": {
+        "name": "Introduction to Cybersecurity",
+        "issuer": "Cisco",
+        "score": ""
+      },
+      "ml": {
+        "name": "Introduction to Machine Learning",
+        "issuer": "NPTEL / Coursera",
+        "score": "Aggregate: 100/100"
+      },
+      "iitRoorkee": {
+        "name": "Data Science & AI Program",
+        "issuer": "IIT Roorkee",
+        "score": "Completed"
+      },
+      "pwc": {
+        "name": "PwC Power BI Job Simulation",
+        "issuer": "Forage / PwC",
+        "score": "Completed 2025"
+      },
+      "aws": {
+        "name": "AWS APAC Solutions Architecture",
+        "issuer": "Forage / AWS",
+        "score": "Completed 2025"
+      }
+    }
+  },
+  "contact": {
+    "title": "06 CONTACT",
+    "subtitle": "Let's connect",
+    "email1": "eswaryadav8543@gmail.com",
+    "email2": "eswaryadav8543@icloud.com",
+    "copied": "Copied!",
+    "copyEmail": "Copy email address",
+    "social": {
+      "github": "GitHub",
+      "linkedin": "LinkedIn",
+      "instagram": "Instagram"
+    },
+    "availability": "Open to research internships, data science roles, and collaboration on ML/AI projects."
+  },
+  "footer": {
+    "cta": "LET'S BUILD SOMETHING INTELLIGENT.",
+    "copyright": "© 2026 Y Eswar",
+    "backToTop": "Back to top",
+    "madeWith": "Built with intention"
+  },
+  "common": {
+    "theme": {
+      "light": "LIGHT",
+      "dark": "DARK",
+      "toggle": "Toggle theme"
+    },
+    "language": {
+      "en": "EN",
+      "te": "తెలుగు",
+      "toggle": "Toggle language"
+    },
+    "sound": {
+      "on": "SOUND",
+      "off": "MUTE",
+      "toggle": "Toggle sound"
+    },
+    "status": {
+      "completed": "COMPLETED",
+      "active": "ACTIVE",
+      "research": "RESEARCH",
+      "published": "PUBLISHED"
+    },
+    "skipToContent": "Skip to main content"
+  }
+}
